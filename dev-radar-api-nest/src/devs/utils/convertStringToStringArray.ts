@@ -1,0 +1,1 @@
+export default (str: string) => str.split(',').map(word => word.trim());

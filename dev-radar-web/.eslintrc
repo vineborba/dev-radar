@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "globals": {
+    "localStorage": true,
+    "document": true,
+    "fetch": true,
+    "window": true,
+    "navigator": true
+  },
+  "plugins": [
+    "react-hooks"
+  ],
+  "rules": {
+    "no-console":"warn",
+    "react-hooks/rules-of-hooks": "warn",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}
